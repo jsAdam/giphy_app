@@ -4,7 +4,7 @@ $(document).ready(function(){
         var $input = $("input").val();
         $.ajax({
             method: "GET",
-            url: "http://api.giphy.com/v1/gifs/search",
+            url: "https://api.giphy.com/v1/gifs/search",
             data: {
                 api_key: myKey,
                 q: $input
