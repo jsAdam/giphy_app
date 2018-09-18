@@ -1,0 +1,52 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+/* global */
+input{
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    border-top: 1px groove grey;
+    padding: 12px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* search button */
+#search{
+    background-color: dimgrey;
+    border-radius: 3px;
+}
+#search:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+/* delete button */
+#delete{
+    background-color: tomato;
+    border-radius: 3px;
+}
+#delete:hover{
+    background-color: red;
+}
+@media (max-width: 450px){
+    button, input{
+        width: 100%;
+        display: block;
+    }
+    form{
+        padding: 10px;
+    }
+}
